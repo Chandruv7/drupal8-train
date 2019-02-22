@@ -1,0 +1,7 @@
+block_example.description:
+  path: '/custom/block'
+  defaults:
+    _controller: '\Drupal\block\Controller\BlockExampleController::description'
+    _title: 'BlockCustom'
+  requirements:
+    _permission: 'access content'
